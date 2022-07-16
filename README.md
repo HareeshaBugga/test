@@ -13,3 +13,6 @@ steps that we followed are:
 make sure give the username and the token that we generated. 
 
 Review the changes are reflected on the cloud once pushed. 
+
+Second test:
+Editing the file from github gui, making sure the changes are reflected to the local environment. 
