@@ -4,6 +4,7 @@ class Main {
   public static void main(String[] args) {
     int assignment = 101;
     Scanner sc = new Scanner(System.in);
+    System.out.println("We are going to calculate the grade");
     System.out.println("What is your grade in percent?");
     int grade = sc.nextInt();
     switch (assignment) {
