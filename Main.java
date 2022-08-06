@@ -31,5 +31,18 @@ class Main {
           System.out.println("You got an A grade");
         }
     }
+
+    String subject = "Maths";
+
+    switch(subject) {
+      case "Maths":
+          System.out.println("Well, it's Okay");
+      case "Science": 
+          System.out.println("It's interesting");
+      case "English":
+          System.out.println("Geez");
+      case "Computer Science": 
+          System.out.println("Run");
+    }
   }
 }
