@@ -4,6 +4,7 @@ class Main {
   public static void main(String[] args) {
     int assignment = 101;
     Scanner sc = new Scanner(System.in);
+    
     System.out.println("We are going to calculate the grade");
     System.out.println("What is your grade in percent?");
     int grade = sc.nextInt();
@@ -31,6 +32,32 @@ class Main {
         if(grade > 85 && grade <= 100){
           System.out.println("You got an A grade");
         }
+    }
+
+    String extraCurr = "Chess";
+
+    switch(extraCurr) {
+      switch (assignment) {
+      case "Chess":
+        System.out.println("You are smart");
+      case "Basket Ball": 
+        System.out.println("You are tall");
+      case "Baseball":
+        System.out.println("You are strong");
+      case "Piano": 
+        System.out.println("You are skilled ");
+
+    String subject = "Maths";
+
+    switch(subject) {
+      case "Maths":
+          System.out.println("Well, it's Okay");
+      case "Science": 
+          System.out.println("It's interesting");
+      case "English":
+          System.out.println("Geez");
+      case "Computer Science": 
+          System.out.println("Run");
     }
   }
 }
