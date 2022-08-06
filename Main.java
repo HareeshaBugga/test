@@ -31,6 +31,19 @@ class Main {
           System.out.println("You got an A grade");
         }
     }
+    
+    String extraCurr = "Chess";
+
+    switch(extraCurr) {
+      switch (assignment) {
+      case "Chess":
+        System.out.println("You are smart");
+      case "Basket Ball": 
+        System.out.println("You are tall");
+      case "Baseball":
+        System.out.println("You are strong");
+      case "Piano": 
+        System.out.println("You are skilled ");
 
     String subject = "Maths";
 
