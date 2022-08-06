@@ -4,6 +4,8 @@ class Main {
   public static void main(String[] args) {
     int assignment = 101;
     Scanner sc = new Scanner(System.in);
+    
+    System.out.println("We are going to calculate the grade");
     System.out.println("What is your grade in percent?");
     int grade = sc.nextInt();
     switch (assignment) {
@@ -31,7 +33,7 @@ class Main {
           System.out.println("You got an A grade");
         }
     }
-    
+
     String extraCurr = "Chess";
 
     switch(extraCurr) {
